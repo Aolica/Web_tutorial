@@ -1,0 +1,65 @@
+/*cssの設計手法よくわかりません*/
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.main-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.main-image {
+    width:fit-content;
+    height:60%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.main-h1 { /*italic, bold, large font and underlined*/
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #DAFFFB;
+    font-family: 'Black Ops One', system-ui;
+
+}
+.main-h3 { /*italic, bold, large font and underlined*/
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: #64CCC5;
+}
+.main-text {
+    font-size: 14px;
+    color: #176B87;
+    font-family: 'Kanit', sans-serif;
+}
+.main-bg {
+    background-color: #04364A;
+    width: 100%;
+    height: 100%;
+    /*background-image: url("./1.png");  画像を背景にもできる */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-box {
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main-textbox {
+    text-shadow: #0f0f06;
+}
